@@ -58,6 +58,7 @@ _operators = {
     'mssql_to_hive': ['MsSqlToHiveTransfer'],
     'slack_operator': ['SlackAPIOperator', 'SlackAPIPostOperator'],
     'generic_transfer': ['GenericTransfer'],
+    'qubole_hive_operator': ['QuboleHiveOperator'],
 }
 
 _import_module_attrs(globals(), _operators)
